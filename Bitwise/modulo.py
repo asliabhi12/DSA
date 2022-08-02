@@ -1,17 +1,22 @@
-def fastPower(a, b):
+def fastPower(x, n):
     res = 1
-    stage = 0
-    while(b > 0):
-        stage += 1
-        print("at stage ", stage, ": b =", b)
-        if(b & 1) != 0:
-            res = res * a    
-            ("it was divisble by 2, so res =", res)    
-        a = a * a
-        print("a is", a)
-        b = b >> 1
-        print("b is", b)  
+
+    if n < 0:
+        n = abs(n)
+        x = 1/ x
+
+
+    while(n > 0):
+        if(n & 1) != 0:
+            res = res * x    
+        x = x * x
+        n = n >> 1
+        
+
+
+
+    
     return res 
 
 
-print(fastPower(3, 5))
+print(fastPower(2.00000, -2))
