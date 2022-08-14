@@ -1,0 +1,10 @@
+def reverseWords(s: str) -> str:
+        x=list(s.split())
+        lst=[]
+        for i in x:
+            i=i[::-1]
+            lst.append(i)
+        return(' '.join(lst))
+
+
+print(reverseWords("abhishek is so amazing"))
