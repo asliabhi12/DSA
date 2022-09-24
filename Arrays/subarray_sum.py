@@ -18,6 +18,9 @@ def subArraySum(arr, n, s):
 
     return 0
 
+array = [1,2,3,7,5]
+
+print(subArraySum(array, 5, 12))
 
 
     

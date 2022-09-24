@@ -3,4 +3,4 @@ def gcd(a,b):
 
     return gcd(b, a%b)
 
-print(gcd(26, 52))
+print(gcd(52, 26))

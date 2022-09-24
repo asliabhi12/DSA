@@ -1,7 +1,3 @@
-from itertools import count
-from tabnanny import check
-
-
 def majorityElement(arr):
     ansIndex = 0
     count = 0
