@@ -1,6 +1,3 @@
-
-
-
 def ransomNote(s, t):
     map1 = dict()
     map2 = dict()

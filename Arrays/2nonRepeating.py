@@ -3,6 +3,8 @@ def onlyNonRepeating(nums):
     for i in range(0,len(nums)):
         res = res ^ nums[i]
 
+        # first we need t0 do the xor operation and store it in res
+
     res = res & -res
 
     sum1 = 0

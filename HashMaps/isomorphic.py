@@ -1,6 +1,3 @@
-from urllib.request import AbstractBasicAuthHandler
-
-
 def isomorphic(s,t):
     map_s_t = {}
     map_t_s = {}
