@@ -4,7 +4,7 @@ def moveZeroes(nums):
     for i in range(len(nums)):
         if nums[i] == 0:
             nums.remove(0)
-            /nums.append(nums[i])
+            nums.append(nums[i])
             count += 1
 
     for i in range(count):

@@ -22,4 +22,4 @@ def isRotated(str1,str2):
 
 a = "amazon"
 b = "azonam"
-isRotated(a, b)
+print(isRotated(a, b))
