@@ -1,7 +1,4 @@
 
-from queue import PriorityQueue
-
-
 class PriorityQu(object):
     def __init__(self):
         self.queue = []
